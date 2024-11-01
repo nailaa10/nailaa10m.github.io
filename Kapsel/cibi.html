@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Masuk <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Daftar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Layanan
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Sparepart</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron text-center" style="background-image: url(jumbotron.png); background-size: 100% 100%;">
+        <img src="logo.png" alt="" style="border-radius: 50%;" width="200px">
+        <h1 style="font-size: 55px; color: whitesmoke; font-family: Bodoni; font-weight: 900; 
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); letter-spacing: 2px;">
+            Bengkel Motor Dhori
+        </h1>
+        <p class="lead"
+            style="font-size: 28px; font-family: 'Trebuchet MS', sans-serif; color: antiquewhite; font-weight: 600;">
+            Layanan Lokal, Standar Global.
+        </p>
+        <hr class="my-4" style="border-color: whitesmoke;">
+        <p style="color: white; font-size: 20px; font-family: Arial, sans-serif; font-weight: 500;">
+            Motor anda bermasalah? Beri tahu kami lokasi Anda!
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">GPS tracking</a>
+    </div>
+
+    <!--Layanan Section-->
+    <div id="layananSection" class="container text-center my-5">
+        <h2 style="font-size: 36px; font-weight: 800; font-family:'Arial Black', sans-serif; color: #333;">
+            Layanan Servis
+        </h2>
+        <p style="font-size: 20px; color: #555; font-family: 'Courier New', Courier, monospace;">
+            Pilih layanan terbaik untuk kebutuhan motor anda
+        </p>
+
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="card shadow-lg" style="width: 18rem;  border-radius: 15px; overflow: hidden;">
+                <img src="Reguler1.PNG" class="card-img-top" alt="Service 1" style="height: 200px; object-fit: 40px;">
+                <div class="card-body text-center">
+                    <h5 class="card-title font-weight-bold">Reguler</h5>
+                    <p class="card-text">Perawatan berkala untuk menjaga kondisi optimal motor Anda.</p>
+                    <a href="#" class="btn btn-primary">Pilih Layanan</a>
+                </div>
+            </div>
+            <div class="card shadow-lg" style="width: 18rem; border-radius: 15px; overflow: hidden;">
+                <img src="Darurat.PNG" class="card-img-top" alt="Service 2" style="height: 200px; object-fit: 40px;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Darurat</h5>
+                    <p class="card-text">Perbaikan cepat sesuai dengan kondisi darurat anda</p>
+                    <a href="#" class="btn btn-primary">Pilih Layanan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sparepart Section-->
+    <div id="SparepartSection" class="container text-center my-5">
+        <h2 style="font-size: 36px; font-weight: 800; font-family:'Arial Black', sans-serif; color: #333;">
+            Spare Part
+        </h2>
+        <p style="font-size: 20px; color: #555; font-family: 'Courier New', Courier, monospace;">
+            Pilih kebutuhan motor anda agar lebih stylish
+        </p>
+    </div>
+
+    <div class="container my-4">
+        <div class="row justify-content-around">
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="ban.PNG" class="card-img-top" alt="Service 1" style="height: 150px; object-fit: 30px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Ban</h5>
+                        <p class="card-text">Ban dalam, Ban luar, & Ban Tubles</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="aki.PNG" class="card-img-top" alt="Service 2" style="height: 150px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Aki</h5>
+                        <p class="card-text">Menyediakan berbagai pilihan aki</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="oli.PNG" class="card-img-top" alt="Service 3" style="height: 150px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Oli</h5>
+                        <p class="card-text">Oli standar hingga premium untuk motor anda</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="knalpot.PNG" class="card-img-top" alt="Service 4"
+                        style="height: 150px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Knalpot</h5>
+                        <p class="card-text">Knalpot berkualitas untuk performa motor Anda.</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row justify-content-around">
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="busi.PNG" class="card-img-top" alt="Service 1" style="height: 150px; object-fit: 40px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Busi</h5>
+                        <p class="card-text">Menyediakan berbagai pilihan busi</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="lampu.PNG" class="card-img-top" alt="Service 2" style="height: 150px; object-fit: 40 px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Lampu</h5>
+                        <p class="card-text">Lampu depan & belakang, lampu jarak jauh, lampu LED</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="kampas.PNG" class="card-img-top" alt="Service 3"
+                        style="height: 150px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Kampas Rem</h5>
+                        <p class="card-text">Menyediakan kampas rem depan dan belakang</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg" style="border-radius: 15px; overflow: hidden;">
+                    <img src="spion.PNG" class="card-img-top" alt="Service 4" style="height: 150px; object-fit: 40px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Spion</h5>
+                        <p class="card-text">Berbagai style spion untuk tampilan motor lebih menarik</p>
+                        <a href="#" class="btn btn-primary">Beli</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="container-fluid py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logo and Title -->
+                <div class="col-md-4 text-center text-md-left mb-4 mb-md-0">
+                    <img src="logo.png" alt="Bengkel Motor Dhori Logo" style="border-radius: 50%; width: 120px;">
+                    <h2 class="font-weight-bold mt-3" style="color: #e86a1f;">BENGKEL MOTOR DHORI</h2>
+                </div>
+
+                <!-- Location and Contact Info -->
+                <div class="col-md-4 text-center text-md-left mb-4 mb-md-0">
+                    <h5 class="font-weight-bold" style="color: #333;">LOKASI</h5>
+                    <p>Jl. Raya Ponorogo, Durunan, Mlilir, Kec. Dolopo, Kab. Madiun, Jawa Timur</p>
+                    <h5 class="font-weight-bold" style="color: #333;">CONTACT US</h5>
+                    <p>081381522780</p>
+                </div>
+
+                <!-- Google Map -->
+                <div class="col-md-4 text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.683013950895!2d111.63819231537433!3d-7.61289302055319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79cc98ddf1ab13%3A0x28b8f2cb5a9c919d!2sBengkel%20Motor%20Dhori!5e0!3m2!1sen!2sid!4v1698870000000!5m2!1sen!2sid"
+                        width="100%" height="200" style="border: 0; border-radius: 10px;" allowfullscreen=""
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
